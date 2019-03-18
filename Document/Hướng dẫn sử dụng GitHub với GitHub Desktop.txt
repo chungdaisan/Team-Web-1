@@ -1,0 +1,26 @@
+﻿Hướng dẫn sử dụng GitHub với GitHub Desktop
+-----------------------------------
+1- Nguyên tắc hoạt động
+2- Đăng ký tài khoản GitHub
+3- Tạo GitHub Repository
+4- Download & cài đặt GitHub Desktop
+5- Chạy GitHub Desktop
+6- Kết nối GitHub và GitHub Desktop
+-----------------------------------
+I - Nguyên tắc hoạt động
+Để làm việc với GitHub bạn cần:
+1. Đăng ký một tài khoản GitHub và tạo một Repository (GitHub Repository).
+2. Cài đặt GitHub Desktop, một công cụ trực quan quản lý Local Repository (Kho chứa dữ liệu địa phương).
+3. Cấu hình để có thể đồng bộ hóa dữ liệu bằng GitHub Desktop lên Repository server.
+II- Đăng ký tài khoản GitHub
+Trước hết bạn cần phải đăng ký miễn phí một tài khoản GitHub. Bạn có thể vào trang chủ của GitHub tại:
+https://github.com
+Việc đăng ký một tài khoản là đơn giản, bạn chỉ cần nhập username/password và địa chỉ email. Sau khi đăng ký xong bạn cần vào Email kích hoạt tài khoản.
+III- Tạo GitHub Repository
+Sau khi đăng ký xong tài khoản GitHub, và đăng nhập vào. Bạn có thể tạo một GitHub Repository.
+IV- Download & cài đặt GitHub Desktop
+GitHub Desktop về bản chất là một công cụ trực quan cho phép bạn quản lý Local Repository (Kho chứa địa phương) trên máy tính của bạn.
+Để download GitHub Desktop bạn vào địa chỉ:
+https://desktop.github.com/
+IV- Chạy GitHub Desktop.
+Đăng nhập trên GitHub Desktop để kết nối vào tài khoản GitHub của bạn.

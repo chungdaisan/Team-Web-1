@@ -1,0 +1,147 @@
+<html>
+<head>
+<title>Box-shadow</title>
+<link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+</head>
+<style>
+.box-shadow-2 {
+	width: 500px;
+	height: 50px;
+	background: #ff0;
+	margin: 0 auto;
+	box-shadow: 5px 10px #ccc;
+	border-radius: 10px;
+}
+
+.box-shadow-3 {
+	width: 500px;
+	height: 50px;
+	background: #ff0;
+	margin: 0 auto;
+	box-shadow: 5px 10px 8px #ccc;
+	border-radius: 15px 50px;
+}
+
+.box-shadow {
+	width: 500px;
+	height: 50px;
+	background: #ff0;
+	margin: 0 auto;
+	box-shadow: 0px 0px 20px 10px #f0f;
+	border-radius: 15px 50px 30px;
+}
+
+.box-shadow-5 {
+	width: 500px;
+	height: 50px;
+	background: #4CAF50;
+	margin: 0 auto;
+	box-shadow: -2px -2px #FFEB3B;
+	border-radius: 15px 50px 30px 5px;
+}
+
+.text-shadow-1 {
+	text-shadow: 1px 1px 10px #f00;
+	color: #fff;
+}
+
+#grad {
+	background-image: linear-gradient(red, yellow);
+	width: 500px;
+	height: 50px;
+	margin: 0 auto;
+}
+
+#gradient {
+	background-image: linear-gradient(to right, red, yellow);
+	width: 500px;
+	height: 50px;
+	margin: 0 auto;
+}
+</style>
+<body>
+	<div
+		style="width: 500px; margin: 0 auto; background: #00ff1f; border-radius: 10px; padding: 10px 20px; margin-bottom: 20px">
+		<h3>I. Cách tổ chức Layout trong HTML</h3>
+	</div>
+
+	<div
+		style="width: 500px; margin: 0 auto; background: #00ff1f; border-radius: 10px; padding: 10px 20px; margin-bottom: 20px">
+		<h3>II. Một số thuộc tính cơ bản trong CSS3</h3>
+		<ol>
+			<li>Box-Shadow</li>
+			<li>Text-Shadow</li>
+			<li>Border-Radius</li>
+			<li>Background-Gradient</li>
+		</ol>
+	</div>
+
+	<div class="box-shadow-2">Border-radius: 10px</div>
+	<br>
+	<div class="box-shadow-3"></div>
+	<br>
+	<div class="box-shadow"></div>
+	<br>
+	<div class="box-shadow-5"></div>
+
+	<h1 align="center" class="text-shadow-1">Text-shadow</h1>
+
+	<div id="grad">
+		<h3 align="center">Gradient</h3>
+	</div>
+	<br>
+
+	<div id="gradient" align="center">
+		<h3>Gradien To Right</h3>
+	</div>
+	<div
+		style="width: 500px; margin: 0 auto; background: #00ff1f; border-radius: 10px; padding: 10px 20px; margin-top: 20px; margin-bottom: 10px">
+		<h3>III. Sử dụng Owl Carousel</h3>
+	</div>
+	<div style="width: 500px; margin: 0 auto;">
+		<div class="owl-carousel owl-theme">
+			<div class="item">
+				<img src="images/timthumb.png">
+			</div>
+			<div class="item">
+				<img src="images/timthumb (1).png">
+			</div>
+			<div class="item">
+				<img src="images/timthumb.png">
+			</div>
+			<div class="item">
+				<img src="images/timthumb.png">
+			</div>
+			<div class="item">
+				<img src="images/timthumb.png">
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		$('.owl-carousel').owlCarousel({
+			loop : true,
+			margin : 10,
+			responsiveClass : true,
+			responsive : {
+				0 : {
+					items : 1,
+					nav : true
+				},
+				600 : {
+					items : 3,
+					nav : false
+				},
+				1000 : {
+					items : 3,
+					nav : true,
+					loop : false
+				}
+			}
+		})
+	</script>
+
+</body>
+
+</html>
